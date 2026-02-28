@@ -20,3 +20,5 @@ print(result)
 
 with open('meiduo_mall/utils/fatsdfs_picture_path.txt', 'a') as file:
     file.write(result)
+
+    """测试一下"""
