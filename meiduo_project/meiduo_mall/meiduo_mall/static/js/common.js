@@ -1,7 +1,13 @@
-// 获取cookie
+// 获取cookie一：不可以带有中文
+// function getCookie(name) {
+//     let r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
+//     return r ? r[1] : undefined;
+// }
+// 获取cookie二：可以带有中文，现对中文进行解码
 function getCookie(name) {
-    let r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
-    return r ? r[1] : undefined;
+    const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));
+    // 核心：用decodeURIComponent解码后端quote编码的内容
+    return match ? decodeURIComponent(match[2]) : undefined;
 }
 
 // 提取地址栏中的查询字符串

@@ -1,3 +1,4 @@
+这一部分是：tb_sku表中的图片数据（默认图片的地址）
 D:\meiduo_mall_picture_storage\tb_sku\iPhone006.jpg    路径为： group1\M00/00/00/rBMAA2merciAeYiuAAAVASh8SzY886.jpg
 D:\meiduo_mall_picture_storage\tb_sku\huawei001.png    路径为： group1\M00/00/00/rBMAA2merciAAgboAADVCafARaw275.png
 D:\meiduo_mall_picture_storage\tb_sku\huawei002.png    路径为： group1\M00/00/00/rBMAA2merciARJ9jAADVCafARaw859.png
@@ -15,12 +16,11 @@ D:\meiduo_mall_picture_storage\tb_sku\iPhone005.jpg    路径为： group1\M00/0
 D:\meiduo_mall_picture_storage\tb_sku\macbook1.png    路径为： group1\M00/00/00/rBMAA2mercmAeN27AACpO69GbvE752.png
 D:\meiduo_mall_picture_storage\tb_sku\macbook2.png    路径为： group1\M00/00/00/rBMAA2mercmAJoq6AAE_3_D64fI086.png
 
-
-
+这一部分是：tb_brand中的图片数据
 D:\meiduo_mall_picture_storage\logo\Apple.png    路径为： group1\M00/00/00/rBMAA2mero-AfiJjAACaxrUJ00s616.png
 D:\meiduo_mall_picture_storage\logo\HUAWEI.png    路径为： group1\M00/00/00/rBMAA2mero-AMXzsAAHHu0CwYuY271.png
 
-
+这一部分是：tb_sku_image表中的图片数据（即商品的所有图片数据地址）
 D:\meiduo_mall_picture_storage\tb_sku_image\huawei001_1.png    路径为： group1\M00/00/00/rBMAAmmgObuALj-DAADVCafARaw262.png
 D:\meiduo_mall_picture_storage\tb_sku_image\huawei001_2.png    路径为： group1\M00/00/00/rBMAAmmgObuAES7IAARSRJOM8t0391.png
 D:\meiduo_mall_picture_storage\tb_sku_image\huawei001_3.png    路径为： group1\M00/00/00/rBMAAmmgObyAIWpRAAtbGpuQ3Q0008.png

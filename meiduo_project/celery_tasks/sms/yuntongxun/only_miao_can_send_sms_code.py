@@ -19,4 +19,4 @@ def send_sms_codes(mobile,sms_code):
     sdk.sendMessage(tid='1',datas=datas,mobile=mobile)
 
 if __name__ == '__main__':
-    send_sms_codes(mobile='18379309798',sms_code='1234')
+    send_sms_codes(mobile='18379309798',sms_code='1224')
