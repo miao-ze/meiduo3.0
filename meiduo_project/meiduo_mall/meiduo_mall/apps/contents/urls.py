@@ -1,10 +1,11 @@
-from meiduo_mall.apps.contents.views import IndexView
-from django.urls import path, re_path
+from django.urls import re_path
+
+from . import views
 
 app_name = 'contents'
 
 urlpatterns = [
-    re_path(r'^$', IndexView.as_view(), name='index'),
+    re_path(r'^$', views.IndexViews.as_view(), name='index'),
 ]
 
 
